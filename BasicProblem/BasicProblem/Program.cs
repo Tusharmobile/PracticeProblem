@@ -12,7 +12,7 @@ namespace BasicProblem
         {
             Console.WriteLine("welcome to the basic problem ");
             Flipcoin head = new Flipcoin();
-            head.Checkpercentage();
+            head.Check_leap_year();
             Console.ReadLine();
 
 
