@@ -12,7 +12,7 @@ namespace BasicProblem
         {
             Console.WriteLine("welcome to the basic problem ");
             Flipcoin head = new Flipcoin();
-            head.Harmonic_number();
+            head.Factorization(24);
             Console.ReadLine();
 
 
