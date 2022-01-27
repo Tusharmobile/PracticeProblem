@@ -12,10 +12,10 @@ namespace BasicProblem
     
             static void Main(string[] args)
             {
-                Console.WriteLine("welcome to basic program");
-              Flipcoin head = new Flipcoin();
-
-            head.Evenodd(11);
+            Flipcoin Head = new Flipcoin();
+            Console.WriteLine("Enter charactor");
+            char alphabet = Convert.ToChar(Console.ReadLine());
+            Head.vowel_consonant(alphabet);
                 Console.ReadLine();
 
             }
