@@ -8,14 +8,18 @@ namespace BasicProblem
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("welcome to the basic problem ");
-            Flipcoin head = new Flipcoin();
-            head.Swaping(10,20);
-            Console.ReadLine();
+       
+    
+            static void Main(string[] args)
+            {
+                Console.WriteLine("welcome to basic program");
+              Flipcoin head = new Flipcoin();
 
+            head.Evenodd(11);
+                Console.ReadLine();
 
+            }
         }
     }
-}
+
+
