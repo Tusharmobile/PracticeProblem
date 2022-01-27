@@ -12,7 +12,7 @@ namespace BasicProblem
         {
             Console.WriteLine("welcome to the basic problem ");
             Flipcoin head = new Flipcoin();
-            head.division();
+            head.Swaping(10,20);
             Console.ReadLine();
 
 
