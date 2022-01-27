@@ -8,18 +8,29 @@ namespace BasicProblem
 {
     internal class Program
     {
-       
-    
-            static void Main(string[] args)
-            {
-            Flipcoin Head = new Flipcoin();
-            Console.WriteLine("Enter charactor");
-            char alphabet = Convert.ToChar(Console.ReadLine());
-            Head.vowel_consonant(alphabet);
-                Console.ReadLine();
+        public static void Main(String[] args)
+        {
+            Console.WriteLine("welcome basic core program");
+            Flipcoin head = new Flipcoin();
+            head.largest_num(10, 20, 30);
+            Console.ReadLine();
 
-            }
         }
-    }
+
+
+
+
+      
+
+  
+                    
+             
+                    
+                    
+            }
+}
+    
+
+
 
 
